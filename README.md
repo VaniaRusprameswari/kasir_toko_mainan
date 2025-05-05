@@ -40,19 +40,18 @@ Berikut adalah teknologi yang digunakan dalam pengembangan aplikasi ini:
 8. XAMPP — Sebagai web server lokal
 
 ## Cara Menjalankan Proyek
-Untuk menjalankan proyek ini di komputer Anda, ikuti langkah-langkah berikut:
- - Download project ini. git clone https://github.com/VaniaRusprameswari/kasir_toko_mainan 
- - Masuk ke direktori cd kasir_toko_mainan
- - Jalankan composer update untuk mendownload dependensinya.
- - Ganti nama file env.sampel menjadi .env
- - Ubah kofigurasi databasenya :
-    - database.default.hostname = localhost
-    - database.default.database = kasir_toko_mainan
-    - database.default.username = root
-    - `database.default.password = `
-    - database.default.DBDriver = MySQLi
- - Buat nama database kasir_toko_mainan kemudian import file kasir_toko_mainan.sql
- - Jalankan aplikasi php spark serve kemudian buka urlnya http://localhost:8080/
- - Akun untuk login :
-    - Username : superadmin / admin / kasir
-    - Password : superadmin / admin / kasir
+ - Download project ini. `git clone https://github.com/VaniaRusprameswari/kasir_toko_mainan` 
+ - Masuk ke direktori `cd kasir_toko_mainan`
+ - Jalankan `composer update` untuk mendownload dependensinya.
+ - Ganti nama file `env.sampel` menjadi `.env`
+ - Ubah kofigurasi databasenya :
+    - `database.default.hostname = localhost`
+    - `database.default.database = kasir_toko_mainan`
+    - `database.default.username = root`
+    - `database.default.password = `
+    - `database.default.DBDriver = MySQLi`
+ - Buat nama database `kasir_toko_mainan` kemudian import file `kasir_toko_mainan.sql`
+ - Jalankan aplikasi `php spark serve` kemudian buka urlnya `http://localhost:8080/`
+ - Akun untuk login :
+    - Username : superadmin / admin / kasir
+    - Password : superadmin / admin / kasir
