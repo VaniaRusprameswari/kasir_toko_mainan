@@ -42,6 +42,8 @@ $routes->group('auth', function ($routes) {
 $routes->get('stok/masuk', 'Transaksi::index');
 $routes->get('stok/keluar', 'Transaksi::index');
 
+$routes->get('/about', 'About::index');
+
 /*
  * --------------------------------------------------------------------
  * Additional Routing

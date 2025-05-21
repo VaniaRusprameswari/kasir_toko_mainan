@@ -103,6 +103,12 @@
 
                     </ul>
                 </li>
+                <li class="nav-item">
+                    <a href="<?= base_url('about') ?>" class="nav-link">
+                        <i class="nav-icon fas fa-info-circle"></i>
+                        <p>About Us</p>
+                    </a>
+                </li>
                 <li class="nav-header">Administrator</li>
                 <li class="nav-item">
                     <a href="<?= base_url('user/profile') ?>" class="nav-link">
